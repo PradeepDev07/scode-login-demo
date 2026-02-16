@@ -37,3 +37,6 @@ app.post("/login",(req,res)=>{
         res.status(401).send("Invalid credentials")
     }
 })
+app.get("/login",(req,res)=>{
+    res.send(dummyUsers)
+})
