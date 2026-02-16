@@ -38,6 +38,7 @@ const Login = () => {
             <label htmlFor="pw">Password</label>
             <input  id="pw" type="password" placeholder='Password' required value={password} onChange={(e)=>setPassword(e.target.value)}/>
             <button type='submit' >Login</button>
+            <p>Hint : username - john password : 1234</p>
         </form>
     </div>
   )
